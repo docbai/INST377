@@ -261,7 +261,7 @@
          for (var key of Object.keys(organizations)) {
             var orgKeys = organizations[key];
 
-            if (orgKeys["Founding Year"] > 2008) {
+            if (orgKeys["Founding Year"] < 2008) {
                youngerThanTen.push(orgKeys["Founding Year"]);
             }
             //console.log(youngerThanTen);
